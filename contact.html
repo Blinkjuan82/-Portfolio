@@ -13,54 +13,59 @@
 </head>
 
 <body>
-        <head class="container">
-                <nav class="navbar navbar-expand-sm navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <h1>CeRae Garza</h1>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-tsoggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto"> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html"> About </span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</span></a>
-                            </li>
-                            <ul class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact </a>
-                            </ul>
+
+    <head class="container">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <h1>CeRae Garza</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-tsoggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> About </span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</span></a>
+                    </li>
+                    <ul class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact </a>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    </head>
+    <div class="container-fluid" style="border:1px solid #cecece" id="main">
+            <h2 class="row">Contact</h2>
+            <p id="border"></p>
+
+            <div class="row">
+                <ul class="container">
+                    <div class="row">
+                        <ul class="col-sm-auto">
+                            <label for="name">Name</label>
+                            <p><input type="text" id="name" name="name" placeholder="Tito Ortiz" required="required"></p>
                         </ul>
                     </div>
-                </nav>
-            </head>
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Tito Ortiz" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
+                    <div class="row">
+                        <ul class="col-sm-auto">
+                            <label for="email">Email</label>
+                            <p><input type="email" id="email" name="email" placeholder="example@gmail.com"
+                                required="required"></p>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <ul class="col-sm-auto">
+                            <label for="message">Message</label>
+                            <p><textarea id="message" name="message" required="required"></textarea></p>
+                            <p><input type="submit"></p>
+                        </ul>
+                    </div>
                 </ul>
-                <input type="submit">
-            </form>
-
-        </section>
-
+            </div>
     </div>
 
     <div class="footer-copyright text-center py-3">©Copyright
