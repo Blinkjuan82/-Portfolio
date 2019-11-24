@@ -6,6 +6,9 @@ body{
     background: url("https://cdn.instructables.com/FRM/4UUR/GJQE90QG/FRM4UURGJQE90QG.LARGE.jpg?auto=webp&&frame=1&fit=bounds");
     background-size:100%;
 }
+.navbar {
+    background:#ebebeb
+}
 .navbar-nav li{
     padding-left:30px;
     padding-right:30px;
@@ -19,6 +22,7 @@ body{
     background:#15bb8d;
     width:300px;
     text-align:center;
+    margin-left:270px;
     
 
 }
